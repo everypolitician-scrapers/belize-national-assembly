@@ -34,7 +34,7 @@ def scrape_list(url)
       id: source.split('/').last.split('-').first,
       name: tds[0].text.sub('Hon. ','').tidy,
       constituency: tds[1].text.tidy,
-      party: tds[2].text.tidy,
+      party: tds[2].text.tidy.sub('Pary','Party'),
       image: tds[3].css('img/@src').text,
       term: 2012,
       source: source,

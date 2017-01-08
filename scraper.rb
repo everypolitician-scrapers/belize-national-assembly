@@ -1,5 +1,6 @@
 #!/bin/env ruby
 # encoding: utf-8
+# frozen_string_literal: true
 
 require 'nokogiri'
 require 'pry'
@@ -10,7 +11,7 @@ OpenURI::Cache.cache_path = '.cache'
 
 class String
   def tidy
-    self.gsub(/[[:space:]]+/, ' ').strip
+    gsub(/[[:space:]]+/, ' ').strip
   end
 end
 
@@ -28,20 +29,20 @@ def scrape_list(url)
     # Don't need anything extra from this yet...
     source = tds[0].css('a/@href').text
     next if source.to_s.empty?
-    source = URI.join(url, source).to_s 
+    source = URI.join(url, source).to_s
 
-    data = { 
-      id: source.split('/').last.split('-').first,
-      name: tds[0].text.sub('Hon. ','').tidy,
+    data = {
+      id:           source.split('/').last.split('-').first,
+      name:         tds[0].text.sub('Hon. ', '').tidy,
       constituency: tds[1].text.tidy,
-      party: tds[2].text.tidy.sub('Pary','Party'),
-      image: tds[3].css('img/@src').text,
-      term: 2012,
-      source: source,
+      party:        tds[2].text.tidy.sub('Pary', 'Party'),
+      image:        tds[3].css('img/@src').text,
+      term:         2012,
+      source:       source,
     }
     data[:image] = URI.join(url, data[:image]).to_s unless data[:image].to_s.empty?
 
-    ScraperWiki.save_sqlite([:id, :term], data)
+    ScraperWiki.save_sqlite(%i(id term), data)
   end
 end
 

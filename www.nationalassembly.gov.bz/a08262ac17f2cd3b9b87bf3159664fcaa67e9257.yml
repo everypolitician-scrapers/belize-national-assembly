@@ -1,0 +1,41 @@
+---
+request:
+  method: get
+  uri: http://www.nationalassembly.gov.bz/house-of-representatives/
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Server:
+    - Apache/2.4
+    Vary:
+    - Accept-Encoding,Cookie
+    Cache-Control:
+    - max-age=3, must-revalidate
+    Content-Type:
+    - text/html; charset=UTF-8
+    Wp-Super-Cache:
+    - Served supercache file from PHP
+    Date:
+    - Sun, 08 Jan 2017 12:40:15 GMT
+    Transfer-Encoding:
+    - chunked
+    Connection:
+    - Keep-Alive
+    Set-Cookie:
+    - X-Mapping-jaapnioa=B086F82C746E36B441E7A4C115130C2E; path=/
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Sun, 08 Jan 2017 12:40:16 GMT

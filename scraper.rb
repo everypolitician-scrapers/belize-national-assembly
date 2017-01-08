@@ -16,30 +16,18 @@ end
 
 def scrape_list(url)
   noko = noko_for(url)
-  header = noko.xpath('//tr[contains(.,"CONSTITUENCY REPRESENTED")]').last
-  header.xpath('following-sibling::tr').each do |tr|
-    tds = tr.css('td')
-    next if tds.count < 4
-
-    # Don't need anything extra from this yet...
-    source = tds[0].css('a/@href').text
-    next if source.to_s.empty?
-    source = URI.join(url, source).to_s
-
+  noko.xpath('//h4[@class="title-heading"]/../..').each do |mem|
     data = {
-      id:           source.split('/').last.split('-').first,
-      name:         tds[0].text.sub('Hon. ', '').tidy,
-      constituency: tds[1].text.tidy,
-      party:        tds[2].text.tidy.sub('Pary', 'Party'),
-      image:        tds[3].css('img/@src').text,
-      term:         2012,
-      source:       source,
+      name:         mem.css('h4').text.sub(/(Rt. )?Hon. /, '').tidy,
+      constituency: mem.xpath('.//h5/text()').first.text.tidy,
+      party:        mem.xpath('.//h5/text()').last.text.tidy,
+      image:        mem.css('img/@src').text,
+      source:       url,
     }
-    data[:image] = URI.join(url, data[:image]).to_s unless data[:image].to_s.empty?
-
-    ScraperWiki.save_sqlite(%i(id term), data)
+    # puts data
+    ScraperWiki.save_sqlite(%i(name constituency party), data)
   end
 end
 
 ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
-scrape_list('http://nationalassembly.gov.bz/index.php/hor-lowerhouse/present-members-house')
+scrape_list('http://www.nationalassembly.gov.bz/house-of-representatives/')

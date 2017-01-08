@@ -10,24 +10,40 @@ require 'scraperwiki'
 # OpenURI::Cache.cache_path = '.cache'
 require 'scraped_page_archive/open-uri'
 
-def noko_for(url)
-  Nokogiri::HTML(open(url).read)
-end
-
-def scrape_list(url)
-  noko = noko_for(url)
-  noko.xpath('//h4[@class="title-heading"]/../..').each do |mem|
-    data = {
-      name:         mem.css('h4').text.sub(/(Rt. )?Hon. /, '').tidy,
-      constituency: mem.xpath('.//h5/text()').first.text.tidy,
-      party:        mem.xpath('.//h5/text()').last.text.tidy,
-      image:        mem.css('img/@src').text,
-      source:       url,
-    }
-    # puts data
-    ScraperWiki.save_sqlite(%i(name constituency party), data)
+class MembersPage < Scraped::HTML
+  field :members do
+    noko.xpath('//h4[@class="title-heading"]/../..').map do |node|
+      fragment node => MemberSection
+    end
   end
 end
 
+class MemberSection < Scraped::HTML
+  field :name do
+    noko.css('h4').text.sub(/(Rt. )?Hon. /, '').tidy
+  end
+
+  field :constituency do
+    noko.xpath('.//h5/text()').first.text.tidy
+  end
+
+  field :party do
+    noko.xpath('.//h5/text()').last.text.tidy
+  end
+
+  field :image do
+    noko.css('img/@src').text
+  end
+
+  field :source do
+    url
+  end
+end
+
+url = 'http://www.nationalassembly.gov.bz/house-of-representatives/'
+page = MembersPage.new(response: Scraped::Request.new(url: url).response)
+data = page.members.map(&:to_h)
+# puts data
+
 ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
-scrape_list('http://www.nationalassembly.gov.bz/house-of-representatives/')
+ScraperWiki.save_sqlite(%i(name constituency party), data)

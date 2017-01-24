@@ -24,7 +24,7 @@ response:
     Content-Type:
     - text/html; charset=UTF-8
     Date:
-    - Wed, 18 Jan 2017 23:35:01 GMT
+    - Tue, 24 Jan 2017 09:30:41 GMT
     Link:
     - "<http://www.nationalassembly.gov.bz/?p=3730>; rel=shortlink"
     - <http://www.nationalassembly.gov.bz/wp-json/>; rel="https://api.w.org/"
@@ -33,8 +33,8 @@ response:
     Set-Cookie:
     - X-Mapping-jaapnioa=CD9CB9C020D56687E8F19823AB7EBB28; path=/
     Content-Length:
-    - '190913'
+    - '190928'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 18 Jan 2017 23:35:02 GMT
+recorded_at: Tue, 24 Jan 2017 09:30:43 GMT

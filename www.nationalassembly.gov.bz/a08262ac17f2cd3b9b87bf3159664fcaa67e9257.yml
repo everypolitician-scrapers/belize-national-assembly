@@ -24,17 +24,17 @@ response:
     Content-Type:
     - text/html; charset=UTF-8
     Date:
-    - Tue, 31 Jan 2017 21:45:51 GMT
+    - Wed, 01 Feb 2017 00:21:45 GMT
     Link:
     - "<http://www.nationalassembly.gov.bz/?p=3730>; rel=shortlink"
     - <http://www.nationalassembly.gov.bz/wp-json/>; rel="https://api.w.org/"
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - X-Mapping-jaapnioa=4E9024B31F58E6B27B2C014ED10E3772; path=/
+    - X-Mapping-jaapnioa=4D3A314D7D62BF12DBB44C0D1CE4B33F; path=/
     Content-Length:
     - '190929'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 31 Jan 2017 21:45:55 GMT
+recorded_at: Wed, 01 Feb 2017 00:21:48 GMT

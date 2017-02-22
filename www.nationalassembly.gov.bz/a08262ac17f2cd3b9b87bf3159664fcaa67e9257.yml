@@ -19,22 +19,24 @@ response:
   headers:
     Server:
     - Apache/2.4
+    Vary:
+    - Cookie
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Date:
-    - Tue, 21 Feb 2017 15:20:30 GMT
+    - Wed, 22 Feb 2017 21:59:22 GMT
     Link:
     - "<http://www.nationalassembly.gov.bz/?p=3730>; rel=shortlink"
     - <http://www.nationalassembly.gov.bz/wp-json/>; rel="https://api.w.org/"
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - X-Mapping-jaapnioa=CD9CB9C020D56687E8F19823AB7EBB28; path=/
-    - wfvt_2853710251=58ac5abfa260a; expires=Tue, 21-Feb-2017 15:50:31 GMT; Max-Age=1800;
+    - X-Mapping-jaapnioa=CA7DA9551B077E85697B125E735CDB6A; path=/
+    - wfvt_2853710251=58ae09bb24ba6; expires=Wed, 22-Feb-2017 22:29:23 GMT; Max-Age=1800;
       path=/; httponly
     Content-Length:
-    - '199944'
+    - '200088'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 21 Feb 2017 15:20:33 GMT
+recorded_at: Wed, 22 Feb 2017 21:59:24 GMT

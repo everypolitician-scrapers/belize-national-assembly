@@ -20,23 +20,22 @@ response:
     Server:
     - Apache/2.4
     Vary:
-    - Cookie
+    - Accept-Encoding,Cookie
+    Cache-Control:
+    - max-age=3, must-revalidate
     Content-Type:
-    - text/html; charset="UTF-8"
+    - text/html; charset=UTF-8
+    Wp-Super-Cache:
+    - Served supercache file from PHP
     Date:
-    - Tue, 04 Apr 2017 04:54:07 GMT
-    Link:
-    - "<http://www.nationalassembly.gov.bz/?p=3730>; rel=shortlink"
-    - <http://www.nationalassembly.gov.bz/wp-json/>; rel="https://api.w.org/"
+    - Wed, 05 Apr 2017 17:56:37 GMT
     Transfer-Encoding:
     - chunked
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - X-Mapping-jaapnioa=CA7DA9551B077E85697B125E735CDB6A; path=/
-    - wfvt_2853710251=58e326f28e187; expires=Tue, 04-Apr-2017 05:24:10 GMT; Max-Age=1800;
-      path=/; httponly
+    - X-Mapping-jaapnioa=1C2FD7CB2C773E1B5931A10C710886B7; path=/
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 04 Apr 2017 04:54:11 GMT
+recorded_at: Wed, 05 Apr 2017 17:56:37 GMT

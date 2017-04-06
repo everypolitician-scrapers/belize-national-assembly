@@ -28,14 +28,14 @@ response:
     Wp-Super-Cache:
     - Served supercache file from PHP
     Date:
-    - Wed, 05 Apr 2017 17:56:37 GMT
+    - Thu, 06 Apr 2017 05:15:05 GMT
     Transfer-Encoding:
     - chunked
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - X-Mapping-jaapnioa=1C2FD7CB2C773E1B5931A10C710886B7; path=/
+    - X-Mapping-jaapnioa=4D3A314D7D62BF12DBB44C0D1CE4B33F; path=/
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 05 Apr 2017 17:56:37 GMT
+recorded_at: Thu, 06 Apr 2017 05:15:05 GMT

@@ -28,7 +28,12 @@ class MemberSection < Scraped::HTML
   end
 
   field :party do
-    noko.xpath('.//h5/text()').last.text.tidy
+    return '' if party_raw.include? 'Speaker'
+    party_raw
+  end
+
+  field :legislative_membership_type do
+    'Speaker' if party_raw.include? 'Speaker'
   end
 
   field :image do
@@ -38,6 +43,13 @@ class MemberSection < Scraped::HTML
   field :source do
     url
   end
+
+  private
+
+  def party_raw
+    noko.xpath('.//h5/text()').last.text.tidy
+  end
+
 end
 
 url = 'http://www.nationalassembly.gov.bz/house-of-representatives/'

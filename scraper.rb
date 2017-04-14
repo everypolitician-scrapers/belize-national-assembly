@@ -24,7 +24,8 @@ class MemberSection < Scraped::HTML
   end
 
   field :constituency do
-    noko.xpath('.//h5/text()').first.text.tidy
+    return '' if constituency_raw.include? 'Speaker'
+    constituency_raw
   end
 
   field :party do
@@ -48,6 +49,10 @@ class MemberSection < Scraped::HTML
 
   def party_raw
     noko.xpath('.//h5/text()').last.text.tidy
+  end
+
+  def constituency_raw
+    noko.xpath('.//h5/text()').first.text.tidy
   end
 
 end

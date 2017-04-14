@@ -45,5 +45,5 @@ page = MembersPage.new(response: Scraped::Request.new(url: url).response)
 data = page.members.map(&:to_h)
 # puts data
 
-ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
+ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
 ScraperWiki.save_sqlite(%i(name constituency party), data)

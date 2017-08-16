@@ -24,7 +24,7 @@ response:
     Content-Type:
     - text/html; charset="UTF-8"
     Date:
-    - Tue, 15 Aug 2017 05:34:26 GMT
+    - Wed, 16 Aug 2017 07:52:16 GMT
     Link:
     - "<http://www.nationalassembly.gov.bz/?p=3730>; rel=shortlink"
     - <http://www.nationalassembly.gov.bz/wp-json/>; rel="https://api.w.org/"
@@ -33,10 +33,10 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - X-Mapping-jaapnioa=408944864066ECF47D9A1813980A3087; path=/
-    - wfvt_2853710251=599287e406a67; expires=Tue, 15-Aug-2017 06:04:28 GMT; Max-Age=1800;
+    - X-Mapping-jaapnioa=B251C4D2B3E83C4D11956BFE46D27BDD; path=/
+    - wfvt_2853710251=5993f9b29bba2; expires=Wed, 16-Aug-2017 08:22:18 GMT; Max-Age=1800;
       path=/; httponly
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 15 Aug 2017 05:34:29 GMT
+recorded_at: Wed, 16 Aug 2017 07:52:19 GMT

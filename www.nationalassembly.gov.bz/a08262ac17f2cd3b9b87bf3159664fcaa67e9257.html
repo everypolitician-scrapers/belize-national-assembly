@@ -187,7 +187,39 @@ var LS_Meta = {"v":"5.6.6"};
 				},30);
 			});
 		</script>
-		<!--[if lt IE 9]><script src="http://www.nationalassembly.gov.bz/wp-content/themes/wiz/js/html5shiv-printshiv.min.js"></script><![endif]-->
+		<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.nationalassembly.gov.bz/?wordfence_logHuman=1&hid=90D17EA607DC5838FFAE09C3E61E07E2');
+</script><!--[if lt IE 9]><script src="http://www.nationalassembly.gov.bz/wp-content/themes/wiz/js/html5shiv-printshiv.min.js"></script><![endif]-->
     <script type="text/javascript">
         ( function ( $ ) {
             "use strict";
@@ -1800,7 +1832,7 @@ jsFileLocation:"//www.nationalassembly.gov.bz/wp-content/plugins/revslider/publi
 
 					<div class="entry-content" itemprop="mainContentOfPage">
 						<div class="post-content">
-							<div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="ultimate-heading-43995a15bdc5ca9eb" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-43995a15bdc5ca9eb uvc-3674 " data-hspacer="line_with_icon" data-hline_width="auto" data-hicon_type="selector" data-hborder_style="solid" data-hborder_height="1" data-hborder_color="#1c1c1c" data-icon_width="32" data-hfixer="10"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-43995a15bdc5ca9eb h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:normal;">House of Representatives</h2></div><div class="uvc-heading-spacer line_with_icon" style="topheight:32px;"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+							<div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="ultimate-heading-51785a15dd6ff3810" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-51785a15dd6ff3810 uvc-4507 " data-hspacer="line_with_icon" data-hline_width="auto" data-hicon_type="selector" data-hborder_style="solid" data-hborder_height="1" data-hborder_color="#1c1c1c" data-icon_width="32" data-hfixer="10"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-51785a15dd6ff3810 h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:normal;">House of Representatives</h2></div><div class="uvc-heading-spacer line_with_icon" style="topheight:32px;"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
 <div class="aio-icon none "  style="color:#9cc813;font-size:32px;display:inline-block;">
 	<i class="Defaults-star"></i>
 </div></div></div></div></div><div class="vc_empty_space"  style="height: 32px" ><span class="vc_empty_space_inner"></span></div>
@@ -1821,7 +1853,7 @@ jsFileLocation:"//www.nationalassembly.gov.bz/wp-content/plugins/revslider/publi
 			<a name="members"></a>
 		</div>
 	</div>
-<div id="ultimate-heading-2915a15bdc5d0b96" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-2915a15bdc5d0b96 uvc-2491 " data-hspacer="line_with_icon" data-hline_width="auto" data-hicon_type="selector" data-hborder_style="solid" data-hborder_height="1" data-hborder_color="#1c1c1c" data-icon_width="32" data-hfixer="10"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-2915a15bdc5d0b96 h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:normal;">Speaker of the House</h2></div><div class="uvc-heading-spacer line_with_icon" style="topheight:32px;"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div id="ultimate-heading-98455a15dd70055ba" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-98455a15dd70055ba uvc-1850 " data-hspacer="line_with_icon" data-hline_width="auto" data-hicon_type="selector" data-hborder_style="solid" data-hborder_height="1" data-hborder_color="#1c1c1c" data-icon_width="32" data-hfixer="10"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-98455a15dd70055ba h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:normal;">Speaker of the House</h2></div><div class="uvc-heading-spacer line_with_icon" style="topheight:32px;"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
 <div class="aio-icon none "  style="color:#9cc813;font-size:32px;display:inline-block;">
 	<i class="Defaults-star"></i>
 </div></div></div></div></div><div class="vc_empty_space"  style="height: 32px" ><span class="vc_empty_space_inner"></span></div>
@@ -1832,8 +1864,8 @@ jsFileLocation:"//www.nationalassembly.gov.bz/wp-content/plugins/revslider/publi
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Laura-Tucker-Longsworth.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5d5af2 h4 {color:#597600;}div#title-5a15bdc5d5af2 {margin-bottom:25px;}</style><div id="title-5a15bdc5d5af2" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Mrs. Laura Tucker-Longsworth</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Madam Speaker</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div><div class="vc_empty_space"  style="height: 32px" ><span class="vc_empty_space_inner"></span></div>
-<div id="ultimate-heading-81515a15bdc5d7c7e" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-81515a15bdc5d7c7e uvc-7519 " data-hspacer="line_with_icon" data-hline_width="auto" data-hicon_type="selector" data-hborder_style="solid" data-hborder_height="1" data-hborder_color="#1c1c1c" data-icon_width="32" data-hfixer="10"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-81515a15bdc5d7c7e h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:normal;">Present Members of the House of Representatives</h2></div><div class="uvc-heading-spacer line_with_icon" style="topheight:32px;"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<style type="text/css" scoped>div#title-5a15dd7009fca h4 {color:#597600;}div#title-5a15dd7009fca {margin-bottom:25px;}</style><div id="title-5a15dd7009fca" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Mrs. Laura Tucker-Longsworth</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Madam Speaker</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div><div class="vc_empty_space"  style="height: 32px" ><span class="vc_empty_space_inner"></span></div>
+<div id="ultimate-heading-455a15dd700cf99" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-455a15dd700cf99 uvc-1822 " data-hspacer="line_with_icon" data-hline_width="auto" data-hicon_type="selector" data-hborder_style="solid" data-hborder_height="1" data-hborder_color="#1c1c1c" data-icon_width="32" data-hfixer="10"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-455a15dd700cf99 h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:normal;">Present Members of the House of Representatives</h2></div><div class="uvc-heading-spacer line_with_icon" style="topheight:32px;"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
 <div class="aio-icon none "  style="color:#9cc813;font-size:32px;display:inline-block;">
 	<i class="Defaults-star"></i>
 </div></div></div></div></div><div class="vc_empty_space"  style="height: 32px" ><span class="vc_empty_space_inner"></span></div>
@@ -1844,7 +1876,7 @@ jsFileLocation:"//www.nationalassembly.gov.bz/wp-content/plugins/revslider/publi
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Dean-Barrow.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5d9676 h4 {color:#597600;}div#title-5a15bdc5d9676 {margin-bottom:25px;}</style><div id="title-5a15bdc5d9676" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Rt. Hon. Dean O. Barrow</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Queen's Square<br />
+<style type="text/css" scoped>div#title-5a15dd700eaba h4 {color:#597600;}div#title-5a15dd700eaba {margin-bottom:25px;}</style><div id="title-5a15dd700eaba" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Rt. Hon. Dean O. Barrow</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Queen's Square<br />
 (Prime Minister,Minister of Finance and Natural Resources)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1853,7 +1885,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Gaspar-Vega.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5dacae h4 {color:#597600;}div#title-5a15bdc5dacae {margin-bottom:25px;}</style><div id="title-5a15bdc5dacae" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Gaspar Vega</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Orange Walk North<br />
+<style type="text/css" scoped>div#title-5a15dd7010181 h4 {color:#597600;}div#title-5a15dd7010181 {margin-bottom:25px;}</style><div id="title-5a15dd7010181" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Gaspar Vega</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Orange Walk North<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
@@ -1861,7 +1893,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Wilfred-Elrington.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5dc4c0 h4 {color:#597600;}div#title-5a15bdc5dc4c0 {margin-bottom:25px;}</style><div id="title-5a15bdc5dc4c0" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Wilfred Elrington</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Pickstock<br />
+<style type="text/css" scoped>div#title-5a15dd7011a69 h4 {color:#597600;}div#title-5a15dd7011a69 {margin-bottom:25px;}</style><div id="title-5a15dd7011a69" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Wilfred Elrington</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Pickstock<br />
 (Minister of Home Affairs)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1870,7 +1902,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Tracy-Panton.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5ddb6d h4 {color:#597600;}div#title-5a15bdc5ddb6d {margin-bottom:25px;}</style><div id="title-5a15bdc5ddb6d" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Tracy Taegar-Panton</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Albert<br />
+<style type="text/css" scoped>div#title-5a15dd7013054 h4 {color:#597600;}div#title-5a15dd7013054 {margin-bottom:25px;}</style><div id="title-5a15dd7013054" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Tracy Taegar-Panton</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Albert<br />
 (Minister of State in the Ministry of Investment, Trade and Commerce)<br />
 United Democratic Party</h5></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1879,7 +1911,7 @@ United Democratic Party</h5></div></div></div></div><div class="vc_row wpb_row v
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Patrick-Faber.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5df9af h4 {color:#597600;}div#title-5a15bdc5df9af {margin-bottom:25px;}</style><div id="title-5a15bdc5df9af" class="title title-style2 no-strip title-center " ><h4 class="title-heading">  Hon. Patrick Faber</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Collet<br />
+<style type="text/css" scoped>div#title-5a15dd7015056 h4 {color:#597600;}div#title-5a15dd7015056 {margin-bottom:25px;}</style><div id="title-5a15dd7015056" class="title title-style2 no-strip title-center " ><h4 class="title-heading">  Hon. Patrick Faber</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Collet<br />
 (Deputy Prime Minister, Minister of Education, Culture, Youth and Sports)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1888,7 +1920,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Michael-Finnegan.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5e17a2 h4 {color:#597600;}div#title-5a15bdc5e17a2 {margin-bottom:25px;}</style><div id="title-5a15bdc5e17a2" class="title title-style2 no-strip title-center " ><h4 class="title-heading">  Hon. Michael Finnegan</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Mesopotamia<br />
+<style type="text/css" scoped>div#title-5a15dd7016a06 h4 {color:#597600;}div#title-5a15dd7016a06 {margin-bottom:25px;}</style><div id="title-5a15dd7016a06" class="title title-style2 no-strip title-center " ><h4 class="title-heading">  Hon. Michael Finnegan</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Mesopotamia<br />
 (Minister of Housing and Urban Development)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1897,7 +1929,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Anthony-Martinez.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5e2d10 h4 {color:#597600;}div#title-5a15bdc5e2d10 {margin-bottom:25px;}</style><div id="title-5a15bdc5e2d10" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Anthony Martinez</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Port Loyola<br />
+<style type="text/css" scoped>div#title-5a15dd70182f9 h4 {color:#597600;}div#title-5a15dd70182f9 {margin-bottom:25px;}</style><div id="title-5a15dd70182f9" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Anthony Martinez</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Port Loyola<br />
 (Minister of Human Development, Social Transformation and Poverty Alleviation)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1906,7 +1938,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Edmond-Castro.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5e434c h4 {color:#597600;}div#title-5a15bdc5e434c {margin-bottom:25px;}</style><div id="title-5a15bdc5e434c" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Edmond Castro</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Belize Rural North<br />
+<style type="text/css" scoped>div#title-5a15dd70198f9 h4 {color:#597600;}div#title-5a15dd70198f9 {margin-bottom:25px;}</style><div id="title-5a15dd70198f9" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Edmond Castro</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Belize Rural North<br />
 (Minister of Transport and National Emergency Management)<br />
 United Democratic Party</h5></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1915,7 +1947,7 @@ United Democratic Party</h5></div></div></div></div><div class="vc_row wpb_row v
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Manuel-Heredia.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5e7183 h4 {color:#597600;}div#title-5a15bdc5e7183 {margin-bottom:25px;}</style><div id="title-5a15bdc5e7183" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Jose Manuel Heredia Jr.</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Belize Rural South<br />
+<style type="text/css" scoped>div#title-5a15dd701b64c h4 {color:#597600;}div#title-5a15dd701b64c {margin-bottom:25px;}</style><div id="title-5a15dd701b64c" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Jose Manuel Heredia Jr.</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Belize Rural South<br />
 (Minister of Tourism and Civil Aviation)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1924,7 +1956,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Beverly-Castillo.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5e8670 h4 {color:#597600;}div#title-5a15bdc5e8670 {margin-bottom:25px;}</style><div id="title-5a15bdc5e8670" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Beverly Williams</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Belize Rural Central<br />
+<style type="text/css" scoped>div#title-5a15dd701d460 h4 {color:#597600;}div#title-5a15dd701d460 {margin-bottom:25px;}</style><div id="title-5a15dd701d460" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Beverly Williams</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Belize Rural Central<br />
 (Minister of State in the Ministry of Immigration)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1933,7 +1965,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Elodio-Aragon.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5ea10c h4 {color:#597600;}div#title-5a15bdc5ea10c {margin-bottom:25px;}</style><div id="title-5a15bdc5ea10c" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Elodio Aragon Jr.</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Orange Walk East<br />
+<style type="text/css" scoped>div#title-5a15dd701f2a8 h4 {color:#597600;}div#title-5a15dd701f2a8 {margin-bottom:25px;}</style><div id="title-5a15dd701f2a8" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Elodio Aragon Jr.</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Orange Walk East<br />
 (Minister of State in the Ministry of Home Affairs)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1942,7 +1974,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Omar-Figueroa.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5eba6d h4 {color:#597600;}div#title-5a15bdc5eba6d {margin-bottom:25px;}</style><div id="title-5a15bdc5eba6d" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Omar Figueroa</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Cayo North<br />
+<style type="text/css" scoped>div#title-5a15dd7020ddc h4 {color:#597600;}div#title-5a15dd7020ddc {margin-bottom:25px;}</style><div id="title-5a15dd7020ddc" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Omar Figueroa</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Cayo North<br />
 (Minister of State in the Ministry of Forestry, Fisheries, Environment and Sustainable Development)<br />
 United Democratic Party</h5></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1951,7 +1983,7 @@ United Democratic Party</h5></div></div></div></div><div class="vc_row wpb_row v
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Erwin-Contreras.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5edeb6 h4 {color:#597600;}div#title-5a15bdc5edeb6 {margin-bottom:25px;}</style><div id="title-5a15bdc5edeb6" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Erwin Contreras</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Cayo West<br />
+<style type="text/css" scoped>div#title-5a15dd7022de3 h4 {color:#597600;}div#title-5a15dd7022de3 {margin-bottom:25px;}</style><div id="title-5a15dd7022de3" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Erwin Contreras</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Cayo West<br />
 (Minister of Economic Development, Petroleum, Investment, Trade and Commerce)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1960,7 +1992,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Rene-Montero.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5ef4cf h4 {color:#597600;}div#title-5a15bdc5ef4cf {margin-bottom:25px;}</style><div id="title-5a15bdc5ef4cf" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Rene Montero</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Cayo Central<br />
+<style type="text/css" scoped>div#title-5a15dd70248d8 h4 {color:#597600;}div#title-5a15dd70248d8 {margin-bottom:25px;}</style><div id="title-5a15dd70248d8" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Rene Montero</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Cayo Central<br />
 (Minister of Works)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1969,7 +2001,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-John-Saldivar.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5f08dc h4 {color:#597600;}div#title-5a15bdc5f08dc {margin-bottom:25px;}</style><div id="title-5a15bdc5f08dc" class="title title-style2 no-strip title-center " ><h4 class="title-heading">  Hon. John Saldivar</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Belmopan<br />
+<style type="text/css" scoped>div#title-5a15dd70265a4 h4 {color:#597600;}div#title-5a15dd70265a4 {margin-bottom:25px;}</style><div id="title-5a15dd70265a4" class="title title-style2 no-strip title-center " ><h4 class="title-heading">  Hon. John Saldivar</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Belmopan<br />
 (Minister of Defense)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1978,7 +2010,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Hugo-Patt.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5f1e43 h4 {color:#597600;}div#title-5a15bdc5f1e43 {margin-bottom:25px;}</style><div id="title-5a15bdc5f1e43" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Hugo Patt</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Corozal North<br />
+<style type="text/css" scoped>div#title-5a15dd7027d70 h4 {color:#597600;}div#title-5a15dd7027d70 {margin-bottom:25px;}</style><div id="title-5a15dd7027d70" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Hugo Patt</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Corozal North<br />
 (Minister of Labour, Local Government, Rural Development, Public Service,Energy and Public Utilities)<br />
 United Democratic Party</h5></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1987,7 +2019,7 @@ United Democratic Party</h5></div></div></div></div><div class="vc_row wpb_row v
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Angel-Campos.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc5f3d39 h4 {color:#597600;}div#title-5a15bdc5f3d39 {margin-bottom:25px;}</style><div id="title-5a15bdc5f3d39" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Angel Campos</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Corozal South West<br />
+<style type="text/css" scoped>div#title-5a15dd7029ff7 h4 {color:#597600;}div#title-5a15dd7029ff7 {margin-bottom:25px;}</style><div id="title-5a15dd7029ff7" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Angel Campos</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Corozal South West<br />
 (Minister of State in the Ministry of Health)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -1996,7 +2028,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Pablo-Marin.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc6012c2 h4 {color:#597600;}div#title-5a15bdc6012c2 {margin-bottom:25px;}</style><div id="title-5a15bdc6012c2" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Pablo Marin</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Corozal Bay<br />
+<style type="text/css" scoped>div#title-5a15dd702bc76 h4 {color:#597600;}div#title-5a15dd702bc76 {margin-bottom:25px;}</style><div id="title-5a15dd702bc76" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Pablo Marin</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Corozal Bay<br />
 (Minister of Health)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -2005,7 +2037,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon.-Frank-Mena.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc6028a9 h4 {color:#597600;}div#title-5a15bdc6028a9 {margin-bottom:25px;}</style><div id="title-5a15bdc6028a9" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Frank Mena</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Dangriga<br />
+<style type="text/css" scoped>div#title-5a15dd702d208 h4 {color:#597600;}div#title-5a15dd702d208 {margin-bottom:25px;}</style><div id="title-5a15dd702d208" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Frank Mena</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Dangriga<br />
 (Minister of State in the Ministry of Public Service, Energy and Public Utilities)<br />
 United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -2014,7 +2046,7 @@ United Democratic Party</h5></div></div></div><div class="wpb_column vc_column_c
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon-John-Briceno.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc603e71 h4 {color:#597600;}div#title-5a15bdc603e71 {margin-bottom:25px;}</style><div id="title-5a15bdc603e71" class="title title-style2 no-strip title-center " ><h4 class="title-heading">  Hon. John Briceño</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Orange Walk Central<br />
+<style type="text/css" scoped>div#title-5a15dd702f0b4 h4 {color:#597600;}div#title-5a15dd702f0b4 {margin-bottom:25px;}</style><div id="title-5a15dd702f0b4" class="title title-style2 no-strip title-center " ><h4 class="title-heading">  Hon. John Briceño</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Orange Walk Central<br />
 (Leader of the Opposition)<br />
 People's United Party</h5></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
@@ -2023,7 +2055,7 @@ People's United Party</h5></div></div></div></div><div class="vc_row wpb_row vc_
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="250" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/New-Picture.png" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc605d27 h4 {color:#597600;}div#title-5a15bdc605d27 {margin-bottom:25px;}</style><div id="title-5a15bdc605d27" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Francis Fonseca</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Freetown<br />
+<style type="text/css" scoped>div#title-5a15dd7030eb5 h4 {color:#597600;}div#title-5a15dd7030eb5 {margin-bottom:25px;}</style><div id="title-5a15dd7030eb5" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Francis Fonseca</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Freetown<br />
 People's United Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
@@ -2031,7 +2063,7 @@ People's United Party</h5></div></div></div><div class="wpb_column vc_column_con
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon-Kareem-Musa.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc607359 h4 {color:#597600;}div#title-5a15bdc607359 {margin-bottom:25px;}</style><div id="title-5a15bdc607359" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Kareem Musa</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Caribbean Shores<br />
+<style type="text/css" scoped>div#title-5a15dd7032ab4 h4 {color:#597600;}div#title-5a15dd7032ab4 {margin-bottom:25px;}</style><div id="title-5a15dd7032ab4" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Kareem Musa</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Caribbean Shores<br />
 People's United Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
@@ -2039,7 +2071,7 @@ People's United Party</h5></div></div></div><div class="wpb_column vc_column_con
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon-Said-Musa.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc609231 h4 {color:#597600;}div#title-5a15bdc609231 {margin-bottom:25px;}</style><div id="title-5a15bdc609231" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Rt. Hon. Said Musa</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Fort George<br />
+<style type="text/css" scoped>div#title-5a15dd703424d h4 {color:#597600;}div#title-5a15dd703424d {margin-bottom:25px;}</style><div id="title-5a15dd703424d" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Rt. Hon. Said Musa</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Fort George<br />
 People's United Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
@@ -2047,7 +2079,7 @@ People's United Party</h5></div></div></div><div class="wpb_column vc_column_con
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon-Cordel-Hyde.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc60a83b h4 {color:#597600;}div#title-5a15bdc60a83b {margin-bottom:25px;}</style><div id="title-5a15bdc60a83b" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Cordel Hyde</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Lake Independence<br />
+<style type="text/css" scoped>div#title-5a15dd7035e51 h4 {color:#597600;}div#title-5a15dd7035e51 {margin-bottom:25px;}</style><div id="title-5a15dd7035e51" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Cordel Hyde</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Lake Independence<br />
 People's United Party</h5></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
@@ -2055,7 +2087,7 @@ People's United Party</h5></div></div></div></div><div class="vc_row wpb_row vc_
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon-Jose-Mai.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc60c809 h4 {color:#597600;}div#title-5a15bdc60c809 {margin-bottom:25px;}</style><div id="title-5a15bdc60c809" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Jose Mai</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Orange Walk South<br />
+<style type="text/css" scoped>div#title-5a15dd7038179 h4 {color:#597600;}div#title-5a15dd7038179 {margin-bottom:25px;}</style><div id="title-5a15dd7038179" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Jose Mai</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Orange Walk South<br />
 People's United Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
@@ -2063,7 +2095,7 @@ People's United Party</h5></div></div></div><div class="wpb_column vc_column_con
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon-Julius-Espat.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc60dc9b h4 {color:#597600;}div#title-5a15bdc60dc9b {margin-bottom:25px;}</style><div id="title-5a15bdc60dc9b" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Julius Espat</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Cayo South<br />
+<style type="text/css" scoped>div#title-5a15dd7039bc7 h4 {color:#597600;}div#title-5a15dd7039bc7 {margin-bottom:25px;}</style><div id="title-5a15dd7039bc7" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Julius Espat</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Cayo South<br />
 People's United Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
@@ -2071,7 +2103,7 @@ People's United Party</h5></div></div></div><div class="wpb_column vc_column_con
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon-Orlando-Habet.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc60f1a3 h4 {color:#597600;}div#title-5a15bdc60f1a3 {margin-bottom:25px;}</style><div id="title-5a15bdc60f1a3" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Orlando Habet</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Cayo North East<br />
+<style type="text/css" scoped>div#title-5a15dd703bbd4 h4 {color:#597600;}div#title-5a15dd703bbd4 {margin-bottom:25px;}</style><div id="title-5a15dd703bbd4" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Orlando Habet</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Cayo North East<br />
 People's United Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
@@ -2079,7 +2111,7 @@ People's United Party</h5></div></div></div><div class="wpb_column vc_column_con
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="223" height="210" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/New-Picture-1.png" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc6106f3 h4 {color:#597600;}div#title-5a15bdc6106f3 {margin-bottom:25px;}</style><div id="title-5a15bdc6106f3" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Florencio Marin Jr.</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Corozal South East<br />
+<style type="text/css" scoped>div#title-5a15dd703d3cc h4 {color:#597600;}div#title-5a15dd703d3cc {margin-bottom:25px;}</style><div id="title-5a15dd703d3cc" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Florencio Marin Jr.</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Corozal South East<br />
 People's United Party</h5></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
@@ -2087,7 +2119,7 @@ People's United Party</h5></div></div></div></div><div class="vc_row wpb_row vc_
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon-Rodwell-Ferguson2.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc6121d1 h4 {color:#597600;}div#title-5a15bdc6121d1 {margin-bottom:25px;}</style><div id="title-5a15bdc6121d1" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Rodwell Ferguson</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Stann Creek West<br />
+<style type="text/css" scoped>div#title-5a15dd7040009 h4 {color:#597600;}div#title-5a15dd7040009 {margin-bottom:25px;}</style><div id="title-5a15dd7040009" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Rodwell Ferguson</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Stann Creek West<br />
 People's United Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
@@ -2095,7 +2127,7 @@ People's United Party</h5></div></div></div><div class="wpb_column vc_column_con
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon-Oscar-Requena.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc61395c h4 {color:#597600;}div#title-5a15bdc61395c {margin-bottom:25px;}</style><div id="title-5a15bdc61395c" class="title title-style2 no-strip title-center " ><h4 class="title-heading">  Hon. Oscar Requena</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Toledo West<br />
+<style type="text/css" scoped>div#title-5a15dd704197b h4 {color:#597600;}div#title-5a15dd704197b {margin-bottom:25px;}</style><div id="title-5a15dd704197b" class="title title-style2 no-strip title-center " ><h4 class="title-heading">  Hon. Oscar Requena</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Toledo West<br />
 People's United Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
@@ -2103,14 +2135,14 @@ People's United Party</h5></div></div></div><div class="wpb_column vc_column_con
 			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="210" height="258" src="http://www.nationalassembly.gov.bz/wp-content/uploads/2016/05/Hon-Mike-Espat.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
 		</figure>
 	</div>
-<style type="text/css" scoped>div#title-5a15bdc615244 h4 {color:#597600;}div#title-5a15bdc615244 {margin-bottom:25px;}</style><div id="title-5a15bdc615244" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Mike Espat</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Toledo East<br />
+<style type="text/css" scoped>div#title-5a15dd704343d h4 {color:#597600;}div#title-5a15dd704343d {margin-bottom:25px;}</style><div id="title-5a15dd704343d" class="title title-style2 no-strip title-center " ><h4 class="title-heading"> Hon. Mike Espat</h4></div><h5 style="color: #597600;text-align: center" class="vc_custom_heading">Toledo East<br />
 People's United Party</h5></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><!-- Row Backgrounds --><div class="upb_color" data-bg-override="0" data-bg-color="#ffffff" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="4.11.2.1"  data-is_old_vc=""  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    ></div><div class="opn-row-pre-element" data-id="" data-gutter="" data-opn_hide_navigation="" data-opn_enable_overlay=""></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
 		<div class="wpb_wrapper">
 			<a name="speakers"></a>
 		</div>
 	</div>
-<div id="ultimate-heading-23785a15bdc61760e" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-23785a15bdc61760e uvc-4250 " data-hspacer="line_with_icon" data-hline_width="auto" data-hicon_type="selector" data-hborder_style="solid" data-hborder_height="1" data-hborder_color="#1c1c1c" data-icon_width="32" data-hfixer="10"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-23785a15bdc61760e h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:normal;">Past Speakers</h2></div><div class="uvc-heading-spacer line_with_icon" style="topheight:32px;"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div id="ultimate-heading-91555a15dd7045d38" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-91555a15dd7045d38 uvc-5455 " data-hspacer="line_with_icon" data-hline_width="auto" data-hicon_type="selector" data-hborder_style="solid" data-hborder_height="1" data-hborder_color="#1c1c1c" data-icon_width="32" data-hfixer="10"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-91555a15dd7045d38 h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:normal;">Past Speakers</h2></div><div class="uvc-heading-spacer line_with_icon" style="topheight:32px;"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
 <div class="aio-icon none "  style="color:#9cc813;font-size:32px;display:inline-block;">
 	<i class="Defaults-star"></i>
 </div></div></div></div></div><div class="vc_empty_space"  style="height: 32px" ><span class="vc_empty_space_inner"></span></div>
@@ -2150,7 +2182,7 @@ People's United Party</h5></div></div></div><div class="wpb_column vc_column_con
 			<a name="orders"></a>
 		</div>
 	</div>
-<div id="ultimate-heading-69205a15bdc61c11c" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-69205a15bdc61c11c uvc-2454 " data-hspacer="line_with_icon" data-hline_width="auto" data-hicon_type="selector" data-hborder_style="solid" data-hborder_height="1" data-hborder_color="#1c1c1c" data-icon_width="32" data-hfixer="10"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-69205a15bdc61c11c h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:normal;">Orders of the Day</h2></div><div class="uvc-heading-spacer line_with_icon" style="topheight:32px;"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div id="ultimate-heading-9895a15dd704a6b9" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-9895a15dd704a6b9 uvc-6472 " data-hspacer="line_with_icon" data-hline_width="auto" data-hicon_type="selector" data-hborder_style="solid" data-hborder_height="1" data-hborder_color="#1c1c1c" data-icon_width="32" data-hfixer="10"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-9895a15dd704a6b9 h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:normal;">Orders of the Day</h2></div><div class="uvc-heading-spacer line_with_icon" style="topheight:32px;"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
 <div class="aio-icon none "  style="color:#9cc813;font-size:32px;display:inline-block;">
 	<i class="Defaults-star"></i>
 </div></div></div></div></div><div class="vc_empty_space"  style="height: 32px" ><span class="vc_empty_space_inner"></span></div>
@@ -2657,7 +2689,7 @@ var theme_vars = {"logo_url":"http:\/\/www.nationalassembly.gov.bz\/wp-content\/
 
 </html>
    
-<!-- Dynamic page generated in 3.058 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2017-11-22 18:11:18 -->
+<!-- Dynamic page generated in 2.309 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2017-11-22 20:26:24 -->
 
 <!-- super cache -->

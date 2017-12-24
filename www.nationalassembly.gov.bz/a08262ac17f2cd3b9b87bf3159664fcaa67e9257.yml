@@ -24,19 +24,19 @@ response:
     Content-Type:
     - text/html; charset="UTF-8"
     Date:
-    - Sat, 23 Dec 2017 05:55:42 GMT
+    - Sun, 24 Dec 2017 18:08:40 GMT
     Link:
     - "<http://www.nationalassembly.gov.bz/?p=3730>; rel=shortlink"
     - <http://www.nationalassembly.gov.bz/wp-json/>; rel="https://api.w.org/"
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - X-Mapping-jaapnioa=B251C4D2B3E83C4D11956BFE46D27BDD; path=/
-    - wfvt_2853710251=5a3defdf800e7; expires=Sat, 23-Dec-2017 06:25:43 GMT; Max-Age=1800;
+    - X-Mapping-jaapnioa=3299BDCC782DC1F0B1A109AE2036C360; path=/
+    - wfvt_2853710251=5a3fed29da22f; expires=Sun, 24-Dec-2017 18:38:41 GMT; Max-Age=1800;
       path=/; httponly
     Content-Length:
-    - '200197'
+    - '200198'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 23 Dec 2017 05:55:44 GMT
+recorded_at: Sun, 24 Dec 2017 18:08:42 GMT

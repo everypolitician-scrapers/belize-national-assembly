@@ -18,22 +18,23 @@ response:
     message: OK
   headers:
     Server:
-    - Apache/2.4
+    - nginx
+    Date:
+    - Thu, 01 Mar 2018 19:16:22 GMT
+    Content-Type:
+    - text/html; charset=UTF-8
+    Connection:
+    - keep-alive
+    X-Powered-By:
+    - PHP/5.4.16
+    - PleskLin
     Vary:
     - Accept-Encoding,Cookie
     Cache-Control:
     - max-age=3, must-revalidate
-    Content-Type:
-    - text/html; charset=UTF-8
-    Date:
-    - Wed, 28 Feb 2018 14:59:10 GMT
-    Connection:
-    - Keep-Alive
-    Set-Cookie:
-    - X-Mapping-jaapnioa=B251C4D2B3E83C4D11956BFE46D27BDD; path=/
     Content-Length:
-    - '200399'
+    - '201037'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 28 Feb 2018 14:59:10 GMT
+recorded_at: Thu, 01 Mar 2018 19:16:23 GMT

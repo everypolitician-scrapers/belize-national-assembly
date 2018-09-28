@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 27 Sep 2018 20:09:40 GMT
+    - Fri, 28 Sep 2018 10:40:04 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Connection:
@@ -34,8 +34,8 @@ response:
     - <https://www.nationalassembly.gov.bz/wp-json/>; rel="https://api.w.org/", <https://www.nationalassembly.gov.bz/?p=3730>;
       rel=shortlink
     Content-Length:
-    - '201516'
+    - '201510'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 27 Sep 2018 20:09:41 GMT
+recorded_at: Fri, 28 Sep 2018 10:40:05 GMT

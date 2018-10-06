@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Fri, 05 Oct 2018 12:05:58 GMT
+    - Sat, 06 Oct 2018 11:17:16 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Connection:
@@ -30,12 +30,11 @@ response:
     - PleskLin
     Vary:
     - Accept-Encoding,Cookie
-    Link:
-    - <https://www.nationalassembly.gov.bz/wp-json/>; rel="https://api.w.org/", <https://www.nationalassembly.gov.bz/?p=3730>;
-      rel=shortlink
+    Cache-Control:
+    - max-age=3, must-revalidate
     Content-Length:
-    - '201332'
+    - '201338'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 05 Oct 2018 12:05:58 GMT
+recorded_at: Sat, 06 Oct 2018 11:17:17 GMT
